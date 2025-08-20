@@ -16,7 +16,7 @@ São implementações do kernel linux, tipo sabores. Você escolhe oq mais lhe a
 
 ## Tipos de DISTROS
 
-### Enterprises(Servidores):
+### Enterprises(Servidores)
 
 São versões mais estáveis dos sistemas e bastante testadas por serem de sistemas de servidores.
 
@@ -25,7 +25,7 @@ São versões mais estáveis dos sistemas e bastante testadas por serem de siste
     - OpenSuse
     - UbuntuServer: sim, além da versão desktop, existe uma versão server.
 
-### Dekstop:
+### Dekstop
 
 São as distribuições mais usadas e seus (gerenciadores de pacotes), mais á frente explico isso para vocês.
 
