@@ -86,3 +86,4 @@ Use a sua Máquina local, Vagrant ou Virtual Machine para viajar pelos diretóri
 Na primeira linha podemos ver o comando `ls` que é um comando para listar todos os diretórios da pasta onde você está. Com isso eu só fui retornado a um `.cfg`, pois ainda não estava no diretório raiz da minha VM.
 
 Usei o comando `cd /`  para me locomover para o diretório raiz
+e vá navegando pelo 
