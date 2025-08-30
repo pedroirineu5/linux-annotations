@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Boot/Boot System.md",
-                "mode": "source",
+                "file": "Introduction./Linux-Distros.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Boot System"
+              "title": "Linux-Distros"
             }
           }
         ],

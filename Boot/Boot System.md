@@ -9,7 +9,7 @@ Recapitulando, seguindo de cima para baixo:
 
 ## POST
 
-- Testa todos os componentes por algum problema de hardware, ele quem faz os *bips* quando se tem algum problema com o maquinário.
+- Testa todos os componentes por algum problema de hardware, ele quem faz os *Beeps* quando se tem algum problema com o maquinário.
 - Caso passe em todos os teste passa para a BIOS
 
 ## BIOS
@@ -18,5 +18,42 @@ Recapitulando, seguindo de cima para baixo:
 - Contém ordem de boot e informações de hardware;
 - Pegando o primeiro device/dispositivo para iniciar a leitura.
 
-## MBR
+## MBR(Master Boot Record)
+
+- MBR são os primeiros 512 bytes
+- Armazena o bootloader
+- O bootloader tinah que ser bem pequeno
+- Um bootloader poderia chamar o outro, ou iniciar o sistema diretamente
+
+
+## UEFI
+
+- EFI System Partition (ESP)
+- Sem limite de tamanho
+- Múltiplos bootloaders
+- Arquivos no formato .efi
+
+## Bootloader
+
+- Inicia o carregamento do Kernel do sistema
+- Opção de selecionar outro sistema para bootar
+- Ao precionar ENTER o grub, chama o kernel do sistema espeficico
+
+
+## Kernel
+
+- Arquivo que está dentro do /boot, geralmente chamado do vmlinuz
+- Inicia o Initrd
+
+## Initrd (Initial RAM Disk)
+
+-  Initial RAM Disk;
+-  Carrega drivers na memória;
+-  Devolve para o kernel falando que está tudo certo;
+
+## Init
+
+- Primeiro processo do sistema
+- PID 1
+- Inicia todos os outros processos
 
