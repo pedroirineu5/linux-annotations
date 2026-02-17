@@ -6,5 +6,6 @@ Isto é um mini bloquinho de anotações sobre minhas aulas sobre linux, espero 
 
 1. [Introdução]()
     1. [Linux and Distros](Introduction./Linux-Distros.md)
+    2. [File System Hierarchy](Introduction./FHS.md)
 
 3. [Escrevendo...](#paragraph2)
